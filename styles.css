@@ -1,0 +1,187 @@
+html{
+scroll-behavior: smooth;
+}
+
+/* back ground color */
+body{
+    /* background-color: black; */
+    background-color: lightblue;
+    color: green; /* Set text color to white for better contrast */
+    background-image: url(Images/narayani.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* alignment of Phatcowlee. and nav bar */
+.headline-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh; /* This ensures the container takes up the full viewport height */
+    font-family: "Pixelify Sans"
+ 
+}
+
+/* nav bar */
+.NavigationBar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: "Pixelify Sans"
+}
+/* nav bar */
+.NavigationBar ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+/* nav bar  */
+.NavigationBar li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/* nav bar */
+.NavigationBar a {
+    text-decoration: 
+    none;
+    color: black;
+}
+
+/* #box1{
+    border: 5px solid;
+    width: 250px;
+    
+} */
+
+.WorkPage{
+    background: linear-gradient(cyan, #09EE90 );
+    height:96vh;
+    border-radius: 20px; 
+}
+
+.Youtube{
+    position: absolute;
+    top: 150vh;
+    right: 2vh;
+}
+
+.Spotify{
+    position: absolute;
+    bottom: 0;
+    top: 102vh;
+    right: 5vh;
+
+}
+
+.CinemaEP{
+    position: absolute;
+    top: 102vh;
+    left: 2vh;
+}
+
+.Anaasir{
+    position:absolute;
+    top:102vh;
+    left: 50vh;
+}
+
+.EchoesInTheValley{
+    position:absolute;
+    top:150vh;
+    left: 50vh;
+}
+
+.NidaaunaDeu{
+    position: absolute;
+    border-radius: 20px;
+    top: 102vh;
+    left: 100vh;
+    width: 350px;
+    height: 350px;
+}
+
+/* .Fuzzscape{
+    position:absolute;
+    top: 102vh;
+    left: 100vh;
+} */
+
+.ContactPage{
+    height:15vh;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-image: url(Images/contact_bg.jpg); */
+}
+
+/* .Comms{
+    position: absolute;
+    top: 1600px;
+    right: 350px;
+    font-family: "Pixelify Sans"
+} */
+
+/* .Comms ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Comms li {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+/* nav bar */
+/* .Comms a {
+    text-decoration: none;
+    color: black; */
+/* } */
+
+.AtomicBush{
+    position: absolute;
+    /* border-radius: 20px; */
+    background: fixed;
+    background-size: cover;
+    left: 0px;
+}
+ 
+/* audio{
+    display: none;
+} */
+
+.Facebook{
+    position: absolute;
+    top: 203vh;
+    left: 74.5vh;
+
+}
+
+.Instagram{
+    position: absolute;
+    top: 203vh;
+    left: 84.5vh;
+}
+
+.Twitter{
+    position: absolute;
+    top: 203vh;
+    left: 94.5vh;
+}
+
+.Tiktok{
+    position: absolute;
+    top: 203vh;
+    left: 104.5vh;
+}
+
+.Gmail{
+    position: absolute;
+    top: 203vh;
+    left: 114.5vh;
+}
